@@ -13,4 +13,34 @@
   background-position: top;
   /* https://bennettfeely.com/clippy/ */
   clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+  position: relative;
+}
+
+.logo {
+  height: 40px;
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.heading-primary {
+  font-size: 90px;
+}
+
+.heading-secondary {
+  letter-spacing: 16px;
 }

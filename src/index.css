@@ -1,0 +1,22 @@
+/*
+ * ─── NORMALISE THE CSS TO START CLEAN ───────────────────────────────────────────
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* padding and border is not added to the size */
+  box-sizing: border-box;
+}
+
+/*
+ * ─── SET INITIAL PROPERTIES TO BE INHERITED HERE IN BODY ────────────────────────
+ */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+}

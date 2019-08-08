@@ -47,6 +47,8 @@
   letter-spacing: 16px;
   animation-name: firstanimation2;
   animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 10;
 }
 
 /*

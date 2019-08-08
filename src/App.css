@@ -66,10 +66,11 @@
 @keyframes firstanimation2 {
   0% {
     opacity: 0;
+    transform: translate(-100px);
   }
   50% {
-    opacity: 0;
-    transform: translate(-100px);
+    opacity: 1;
+    transform: translate(30px);
   }
   100% {
     opacity: 1;

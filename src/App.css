@@ -39,13 +39,16 @@
 
 .heading-primary {
   font-size: 90px;
-  animation-name: firstanimation;
+
+  /* left and right animations */
+  animation-name: firstanimation2;
+  animation-name: firstanimation-right;
   animation-duration: 2s;
 }
 
 .heading-secondary {
   letter-spacing: 16px;
-  animation-name: firstanimation2;
+  animation-name: firstanimation-right;
   animation-duration: 3s;
   animation-delay: 2s;
   animation-iteration-count: 10;
@@ -74,6 +77,21 @@
   50% {
     opacity: 1;
     transform: translate(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes firstanimation-right {
+  0% {
+    opacity: 0;
+    transform: translate(100px);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-30px);
   }
   100% {
     opacity: 1;

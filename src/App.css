@@ -40,11 +40,13 @@
 .heading-primary {
   font-size: 90px;
   animation-name: firstanimation;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .heading-secondary {
   letter-spacing: 16px;
+  animation-name: firstanimation2;
+  animation-duration: 3s;
 }
 
 /*
@@ -55,7 +57,22 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes firstanimation2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
   }
 }

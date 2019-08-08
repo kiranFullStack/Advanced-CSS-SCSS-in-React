@@ -39,8 +39,23 @@
 
 .heading-primary {
   font-size: 90px;
+  animation-name: firstanimation;
+  animation-duration: 4s;
 }
 
 .heading-secondary {
   letter-spacing: 16px;
+}
+
+/*
+ * ─── CONVERT TO KEYFRAME SNIPPET ────────────────────────────────────────────────
+ */
+
+@keyframes firstanimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
